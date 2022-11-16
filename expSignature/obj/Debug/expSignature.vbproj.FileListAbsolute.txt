@@ -1,0 +1,9 @@
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\bin\Debug\expSignature.exe.config
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\bin\Debug\expSignature.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\bin\Debug\expSignature.pdb
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\bin\Debug\expSignature.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\obj\Debug\expSignature.Resources.resources
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\obj\Debug\expSignature.vbproj.GenerateResource.Cache
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\obj\Debug\expSignature.exe
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\obj\Debug\expSignature.xml
+C:\Users\chris\Documents\Visual Studio 2013\Projects\expSignature\expSignature\obj\Debug\expSignature.pdb
