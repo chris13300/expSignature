@@ -1,8 +1,8 @@
-﻿Module modMain
+Module modMain
 
     Sub Main()
         Dim chaine As String, tabChaine() As String, tabTmp() As String, i As Integer, signatures As String
-        Dim fichierINI As String, fichierEXP As String, moteurEXP As String
+        Dim fichierINI As String, fichierEXP As String, moteurEXP As String, maSignature As String
 
         Console.Title = My.Computer.Name
 
@@ -77,8 +77,13 @@
                     If signatures = "" Then
                         Console.WriteLine("Enter your signature :")
                         Console.WriteLine("accepted chars : a-z, 0-9, @, %, &, *, (), []") 'les traits, tirets, espaces et autres seront comptés comme des espaces
-                        signerEXP(Console.ReadLine(), fichierEXP)
+                        maSignature = Console.ReadLine()
+                        signerEXP(maSignature, fichierEXP)
                         signatures = trouverSignatures(fichierEXP)
+                        'not ready ?
+                        If signatures = "" And maSignature <> "" Then
+                            signatures = maSignature
+                        End If
                     Else
                         If signatures.Split(vbCrLf).Length > 2 Then
                             Console.WriteLine("This EXP file was merged !")
