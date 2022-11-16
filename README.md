@@ -13,5 +13,5 @@ command : expSignature.exe path_to_your_experience_file.exp<br>
 2°) Check the EXP file signature :
 ![2  check exp file signature](https://user-images.githubusercontent.com/54830918/202219662-961f77fb-20c9-4964-bf18-a554690d3bf8.jpg)
 
-If someone try to sign your EXP file :
+If someone try to sign your signed EXP file :
 ![already signed exp file](https://user-images.githubusercontent.com/54830918/202219705-7ac44c43-8648-4479-89c7-4a5c5c8b2ec3.jpg)
